@@ -23,7 +23,6 @@ const Search: React.FC<ISearchProps> = memo(({ onSearch }) => {
   }, []);
 
   const searchQuery = () => {
-    console.log("searchQuery", value);
     onSearch(value);
   };
 
