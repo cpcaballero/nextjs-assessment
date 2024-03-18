@@ -1,5 +1,5 @@
-#RareCircles Take Home Coding Assessments
-##Task 1: Real-time search feature
+# RareCircles Take Home Coding Assessments
+## Task 1: Real-time search feature
 This can be located inside the task1-search folder, which is a standalone NextJS Application
 
 - Run npm install before running npm run dev.
@@ -17,12 +17,13 @@ This can be located inside the task1-search folder, which is a standalone NextJS
   - Accommodate multiple search terms using a delimiter (comma, maybe?)
   - Choose between infinite scrolling or pagination - which one would be better
  
-##Tas 2: Photo Gallery
+## Task 2: Photo Gallery
 This can be located inside the task2-photo-gallery folder, which is another standalone NextJS Application
 - Run npm install before running npm run dev.
 - Tests can be seen by running the npm run test command. The test can be located inside the tests folder
 - Uses NextJS Image component which has built in Optimization and lazy loading
 - Uses dynamic loading from NextJS for lazy Loading of the PhotoAlbum component
+- Used `useQuery` and API Routing
 - Due to time constraints (done within 12 hours both task 1 and 2), some things can be improved here are
   - Finish testing
   - Separate the PhotoAlbum component so each Photo card will load one by one
